@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-export const Footer: React.FC = () => {
-  return (
-    <footer className="mt-auto bg-gray-900 text-gray-400 pt-16">
+export const Footer = () => {
+    return (<footer className="mt-auto bg-gray-900 text-gray-400 pt-16">
       <div className="mx-auto w-full max-w-[1200px] px-6">
         <div className="mb-12 grid gap-8 md:grid-cols-[2fr_1fr_1fr]">
           <div>
@@ -31,6 +29,5 @@ export const Footer: React.FC = () => {
           <p>&copy; {new Date().getFullYear()} JobFinder React. Powered by Adzuna.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
 };

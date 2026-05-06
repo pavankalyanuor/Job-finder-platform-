@@ -1,6 +1,5 @@
 import React from 'react';
 import { AboutSection } from '../components/AboutSection';
-
-export const AboutPage: React.FC = () => {
-  return <AboutSection />;
+export const AboutPage = () => {
+    return <AboutSection />;
 };
